@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,31 +20,57 @@
   <body>
     <header class="header">
       <a href="#" class="logo">
-        <img
-          src="assets/logo/my-logo.png"
-          alt="my logo"
-          class="my-logo-img"
-        />
+        <img src="assets/logo/my-logo.png" alt="my logo" class="my-logo-img" />
       </a>
       <i class="bx bx-menu" id="menu-icon"></i>
       <nav class="navbar">
-        <a href="#home" class="active">Home</a>
-        <a href="#contacts" class="active">Contact</a>
-        <a href="#about" class="active">About Me</a>
+        <a href="#contacts" class="active">Contacts</a>
+        <a href="#summary" class="active">Summary</a>
         <a href="#skills" class="active">Skills</a>
         <a href="#code" class="active">Code</a>
+        <a href="#courses" class="active">Courses</a>
         <a href="#projects" class="active">Projects</a>
         <a href="#educations" class="active">Educations</a>
         <a href="#languages" class="active">Languages</a>
       </nav>
-			<button class="gradient-btn">Contact Me</button>
+      <button class="gradient-btn">Contact Me</button>
     </header>
     <main>
-      <section>
-        <article></article>
-        <article></article>
-        <article></article>
-        <article></article>
+      <section class="home" id="home">
+        <div class="home-content">
+          <h1>Hi, it`s <span>Ivan</span></h1>
+          <h2>I`m a web developer</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+            quisquam repudiandae quas reiciendis, non quae neque perferendis,
+            dicta laborum maxime laudantium placeat, ducimus iure numquam alias
+            impedit reprehenderit maiores fugiat!
+          </p>
+          <div class="social-icons">
+            <a href="#">
+              <i class="bx bxs-envelope-open"></i>
+            </a>
+            <a href="#">
+              <i class="bx bxl-github"></i>
+            </a>
+            <a href="#">
+              <i class="bx bxl-telegram"></i>
+            </a>
+            <a href="#">
+              <i class="bx bxl-discord"></i>
+            </a>
+            <a href="#">
+              <i class="bx bx-code-alt"></i>
+            </a>
+          </div>
+          <div class="btn-group">
+            <a href="#" class="btn">Hire</a>
+            <a href="#contact" class="btn">Contact</a>
+          </div>
+        </div>
+        <div class="home-img">
+          <img src="assets/img/photo.png" alt="" />
+        </div>
       </section>
     </main>
     <footer></footer>
