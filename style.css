@@ -2,62 +2,89 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-html {
-  font-size: 16px;
+  text-decoration: none;
   scroll-behavior: smooth;
 }
-
+:root {
+  --bg-color: #080808;
+  --second-bg-color: #101010;
+  --text-color: white;
+  --main-color: #ea580c;
+}
+html {
+  font-size: 60%;
+  overflow-x: hidden;
+}
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.5;
-  background-color: #fff;
-  color: #333;
-  min-height: 100vh;
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+.my-logo-img {
+  width: 80px;
 }
-
-a:hover {
-  text-decoration: underline;
+.logo {
+  filter: drop-shadow(0 0 8px rgba(245, 241, 241, 0.6));
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
 }
-
-ul,
-ol {
-  list-style: none;
+.logo:hover {
+	transform: scale(1.1);
 }
-
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-table {
-  border-collapse: collapse;
+.header {
+  position: fixed;
   width: 100%;
+  top: 0;
+  left: 0;
+  padding: 4rem 15%;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+	z-index: 1000;
 }
-
-input,
-button,
-textarea,
-select {
-  font: inherit;
-  outline: none;
-  border: none;
-  background: none;
+#menu-icon {
+	font-size: 3.5rem;
+	color: var(--main-color);
+	display: none;
 }
-
-button {
-  cursor: pointer;
+span {
+	background: linear-gradient(
+		270deg,
+		#DF8908 10%,
+		#ff1d15 100%
+	);
+	background-clip: text;
+	color: transparent;
 }
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
+.navbar a {
+	font-size: 1.4rem;
+	color: var(--text-color);
+	margin-left: 4rem;
+	font-family: "Libertinus Mono", sans-serif;
+	font-weight: 400;
+	transition: 0.3s ease-in-out;
+	border-bottom: 3px solid transparent;
+}
+.navbar a:hover {
+	color: var(--main-color);
+	border-bottom: 3px solid var(--main-color);
+}
+.gradient-btn {
+	font-size: 1.8rem;
+	padding: 1rem 2rem;
+	border-radius: 3rem;
+	background: linear-gradient(
+		270deg,
+		#DF8908 10%,
+		#ff1d15 100%
+	);
+	letter-spacing: 1px;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+	border: none;
+	text-wrap: nowrap;
+}
+.gradient-btn:hover {
+	transform: scale(1.05);
 }
