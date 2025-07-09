@@ -41,25 +41,28 @@
           <h1>Hi, it`s <span>Ivan</span></h1>
           <h2>I`m a web developer</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
-            quisquam repudiandae quas reiciendis, non quae neque perferendis,
-            dicta laborum maxime laudantium placeat, ducimus iure numquam alias
-            impedit reprehenderit maiores fugiat!
+            I’m a motivated junior developer with a passion for building clean
+            and interactive user interfaces. I’ve completed a Full-Stack
+            JavaScript course and continue to improve my skills through
+            real-world projects. I enjoy solving logical problems, writing
+            readable code, and constantly learning new technologies. My goal is
+            to become a reliable member of a development team and work on
+            meaningful projects.
           </p>
           <div class="social-icons">
-            <a href="#">
+            <a href="mailto:gameinoriginal@gmail.com" target="_blank">
               <i class="bx bxs-envelope-open"></i>
             </a>
-            <a href="#">
+            <a href="https://github.com/Lis1van" target="_blank">
               <i class="bx bxl-github"></i>
             </a>
-            <a href="#">
+            <a href="https://t.me/lisvideo" target="_blank">
               <i class="bx bxl-telegram"></i>
             </a>
-            <a href="#">
+            <a href="https://discord.com/users/ivan_litvinenko" target="_blank">
               <i class="bx bxl-discord"></i>
             </a>
-            <a href="#">
+            <a href="https://www.codewars.com/users/Lis1van" target="_blank">
               <i class="bx bx-code-alt"></i>
             </a>
           </div>
@@ -79,11 +82,40 @@
         <div class="contacts-content">
           <h2><span>Contacts</span></h2>
           <ul class="contacts-btn-group">
-            <li><a href="#" class="btn">E-mail</a></li>
-            <li><a href="#" class="btn">GitHub</a></li>
-            <li><a href="#" class="btn">Telegram</a></li>
-            <li><a href="#" class="btn">Discord</a></li>
-            <li><a href="#" class="btn">CodeWars</a></li>
+            <li>
+              <a
+                href="mailto:gameinoriginal@gmail.com"
+                target="_blank"
+                class="btn"
+                >E-mail</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/Lis1van" target="_blank" class="btn"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a href="https://t.me/lisvideo" target="_blank" class="btn"
+                >Telegram</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://discord.com/users/ivan_litvinenko"
+                target="_blank"
+                class="btn"
+                >Discord</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.codewars.com/users/Lis1van"
+                target="_blank"
+                class="btn"
+                >CodeWars</a
+              >
+            </li>
           </ul>
         </div>
       </section>
@@ -103,6 +135,86 @@
             learning new technologies, and solving logical challenges.
           </p>
           <a href="#" class="btn">Read more</a>
+        </div>
+      </section>
+      <section class="skills" id="skills">
+        <h2 class="section-title">My <span>Skills</span></h2>
+        <div class="skills-container">
+          <div class="skill">
+            <div class="circle" style="--percent: 90" data-percent="90"></div>
+            <p>HTML5</p>
+          </div>
+          <div class="skill">
+            <div class="circle" style="--percent: 85" data-percent="85"></div>
+            <p>CSS3</p>
+          </div>
+          <div class="skill">
+            <div class="circle" style="--percent: 60" data-percent="60"></div>
+            <p>JavaScript</p>
+          </div>
+          <div class="skill">
+            <div class="circle" style="--percent: 45" data-percent="45"></div>
+            <p>TypeScript</p>
+          </div>
+          <div class="skill">
+            <div class="circle" style="--percent: 50" data-percent="50"></div>
+            <p>React</p>
+          </div>
+          <div class="skill">
+            <div class="circle" style="--percent: 40" data-percent="40"></div>
+            <p>Redux</p>
+          </div>
+          <div class="skill">
+            <div class="circle" style="--percent: 40" data-percent="40"></div>
+            <p>Next.js</p>
+          </div>
+          <div class="skill">
+            <div class="circle" style="--percent: 50" data-percent="50"></div>
+            <p>Tailwind CSS</p>
+          </div>
+          <div class="skill">
+            <div class="circle" style="--percent: 40" data-percent="40"></div>
+            <p>Node.js</p>
+          </div>
+          <div class="skill">
+            <div class="circle" style="--percent: 35" data-percent="35"></div>
+            <p>NestJS</p>
+          </div>
+          <div class="skill">
+            <div class="circle" style="--percent: 65" data-percent="65"></div>
+            <p>Git & GitHub</p>
+          </div>
+          <div class="skill">
+            <div class="circle" style="--percent: 30" data-percent="30"></div>
+            <p>MongoDB</p>
+          </div>
+        </div>
+      </section>
+      <section class="code" id="code">
+        <div class="code-container">
+          <h2>Code <span>Example</span></h2>
+          <p class="task-desc">
+            <strong>Task:</strong> Mask all but the last four characters of a
+            string.
+            <br />
+            <strong>Source:</strong> Codewars
+          </p>
+          <pre class="code-block">
+<code>
+	function maskify(cc) {
+		if (cc.length <= 4) {
+			return cc;
+		}
+		return '#'.repeat(cc.length - 4) + cc.slice(-4);
+	}
+						</code>						
+    			</pre>
+          <a
+            href="https://www.codewars.com/users/Lis1van"
+            class="btn"
+            target="_blank"
+            >My Codewars Profile</a
+          >
         </div>
       </section>
     </main>
