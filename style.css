@@ -403,3 +403,89 @@ section {
 	font-family: "Ubuntu", sans-serif;
   font-size: 1.6rem;
 }
+/* section education */
+.education {
+  background: var(--bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem 15%;
+}
+.education-content {
+  width: 100%;
+}
+.education-content h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 6rem;
+  margin-bottom: 4rem;
+  color: var(--text-color);
+}
+.education-box {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.edu-item {
+  background-color: #1a1a1a;
+  padding: 3rem;
+  box-shadow: 0 0 25px rgba(234, 88, 12, 0.2);
+  transition: 0.3s ease-in-out;
+  border-radius: 1rem;
+}
+.edu-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 30px var(--main-color);
+}
+.edu-item h3 {
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  color: var(--main-color);
+  margin-bottom: 1rem;
+}
+.edu-item p {
+  font-size: 1.6rem;
+  font-family: "Ubuntu", sans-serif;
+  color: var(--text-color);
+}
+/* section languages */
+.languages {
+  background: var(--bg-color);
+  padding: 8rem 15%;
+  text-align: center;
+}
+.languages-content h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 7rem;
+  margin-bottom: 5rem;
+}
+.lang-box {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  flex-wrap: wrap;
+}
+.lang-item {
+  background-color: var(--second-bg-color);
+  padding: 3rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 25px var(--main-color);
+  width: 25rem;
+  transition: 0.3s ease-in-out;
+}
+.lang-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 35px var(--main-color);
+}
+.lang-item i {
+  font-size: 4rem;
+  color: var(--main-color);
+  margin-bottom: 1rem;
+}
+.lang-item h3 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+.lang-item p {
+  font-size: 1.6rem;
+  font-family: "Ubuntu", sans-serif;
+}
