@@ -524,3 +524,114 @@ section {
 .footer-content .rss-logo img:hover {
   transform: scale(1.1);
 }
+@media(max-width:1285px){
+	#menu-icon {
+		display: block;
+	}
+	.navbar {
+		position: absolute;
+		top: 100%;
+		right: 0;
+		width: 50%;
+		padding: 1rem 3rem;
+		background: rgba(0, 0, 0, 0.8);
+		border-bottom-left-radius: 2rem;
+		border-left: 2px solid var(--main-color);
+		border-bottom: 2px solid var(--main-color);
+		display: none;
+	}
+	.navbar a {
+		display: block;
+		font-size: 2rem;
+		margin: 3rem 0;
+		color: var(--text-color);
+	}
+	.navbar.active {
+		display: block;
+	}
+	.gradient-btn {
+		display: none;
+	}
+	.home {
+		flex-direction: column-reverse;
+		margin: 5rem 0;
+		gap: 5rem;
+	}
+	.home-content {
+		align-items: center;
+		text-align: center;
+	}
+	.home-img img {
+		width: 56vw;
+	}
+	.contacts {
+    flex-direction: column;
+    gap: 5rem;
+    text-align: center;
+  }
+  .contacts-img img {
+    width: 60vw;
+  }
+  .contacts-content h2 {
+    font-size: 5rem;
+    text-align: center;
+  }
+  .contacts-btn-group {
+    padding: 0;
+  }
+  .contacts-btn-group li {
+    margin: 1.5rem 0;
+  }
+	.summary {
+		flex-direction: column-reverse;
+		text-align: center;
+	}
+	.summary h2 {
+		text-align: center;
+		margin: 2rem 0;
+	}
+	.summary img {
+		width: 52vw;
+	}
+	.code {
+		flex-direction: column-reverse;
+		text-align: center;
+  }
+  .code-container {
+    text-align: center;
+  }
+  .code h2 {
+    font-size: 4.5rem;
+  }
+  .task-desc {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .code-block {
+    font-size: 1.6rem;
+    padding: 1.5rem;
+    text-align: left;
+    overflow-x: auto;
+  }
+  .code .btn {
+    font-size: 1.6rem;
+    padding: 1rem 2.5rem;
+  }
+	.education {
+		flex-direction: column-reverse;
+		text-align: center;
+  }
+  .education-content h2 {
+    font-size: 4.5rem;
+    margin-bottom: 3rem;
+  }
+  .edu-item {
+    padding: 2.5rem;
+  }
+  .edu-item h3 {
+    font-size: 2.2rem;
+  }
+  .edu-item p {
+    font-size: 1.5rem;
+  }
+}
