@@ -1,10 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-</head>
-<body>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libertinus+Mono&family=Poppins:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/svg/avatarlis.ico" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">
+        <img src="assets/logo/my-logo.png" alt="my logo" class="my-logo-img" />
+      </a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#contacts" class="active">Contacts</a>
+        <a href="#summary" class="active">Summary</a>
+        <a href="#skills" class="active">Skills</a>
+        <a href="#code" class="active">Code</a>
+        <a href="#projects" class="active">Projects</a>
+        <a href="#educations" class="active">Educations</a>
+        <a href="#languages" class="active">Languages</a>
+      </nav>
+      <button class="gradient-btn">Contact Me</button>
+    </header>
+    <main>
+      <section class="home" id="home">
+        <div class="home-content">
+          <h1>Hi, it`s <span>Ivan</span></h1>
+          <h2>I`m a web developer</h2>
+          <p>
+            I’m a motivated junior developer with a passion for building clean
+            and interactive user interfaces. I’ve completed a Full-Stack
+            JavaScript course and continue to improve my skills through
+            real-world projects. I enjoy solving logical problems, writing
+            readable code, and constantly learning new technologies. My goal is
+            to become a reliable member of a development team and work on
+            meaningful projects.
+          </p>
+          <div class="social-icons">
+            <a href="mailto:gameinoriginal@gmail.com" target="_blank">
+              <i class="bx bxs-envelope-open"></i>
+            </a>
+            <a href="https://github.com/Lis1van" target="_blank">
+              <i class="bx bxl-github"></i>
+            </a>
+            <a href="https://t.me/lisvideo" target="_blank">
+              <i class="bx bxl-telegram"></i>
+            </a>
+            <a href="https://discord.com/users/ivan_litvinenko" target="_blank">
+              <i class="bx bxl-discord"></i>
+            </a>
+            <a href="https://www.codewars.com/users/Lis1van" target="_blank">
+              <i class="bx bx-code-alt"></i>
+            </a>
+          </div>
+          <div class="btn-group">
+            <a href="#" class="btn">Hire</a>
+            <a href="#contacts" class="btn">Contact</a>
+          </div>
+        </div>
+        <div class="home-img">
+          <img src="assets/img/photo.png" alt="my photo" />
+        </div>
+      </section>
+      <section class="contacts" id="contacts">
+        <div class="contacts-img">
+          <img src="assets/img/laptop-web.png" alt="photo" />
+        </div>
+        <div class="contacts-content">
+          <h2><span>Contacts</span></h2>
+          <ul class="contacts-btn-group">
+            <li>
+              <a
+                href="mailto:gameinoriginal@gmail.com"
+                target="_blank"
+                class="btn"
+                >E-mail</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/Lis1van" target="_blank" class="btn"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a href="https://t.me/lisvideo" target="_blank" class="btn"
+                >Telegram</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://discord.com/users/ivan_litvinenko"
+                target="_blank"
+                class="btn"
+                >Discord</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.codewars.com/users/Lis1van"
+                target="_blank"
+                class="btn"
+                >CodeWars</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="summary" id="summary">
+        <div class="summary-img">
+          <img src="assets/img/photo.png" alt="my photo" />
+        </div>
+        <div class="summary-content">
+          <h2>About <span>Me</span></h2>
+          <p>
+            I’m a junior frontend developer currently studying at RS School. I
+            have a strong interest in web development and a passion for
+            learning. I’ve completed the JavaScript Complex course and am now
+            deepening my knowledge in frontend technologies through hands-on
+            practice and projects. I’m a fast learner, persistent, and eager to
+            work in a development team. I enjoy building user interfaces,
+            learning new technologies, and solving logical challenges.
+          </p>
+          <a href="#" class="btn">Read more</a>
+        </div>
+      </section>
+      <section class="skills" id="skills">
+        <h2 class="section-title">My <span>Skills</span></h2>
+        <div class="skills-container">
+          <div class="skill">
+            <div class="circle" style="--percent: 90" data-percent="90"></div>
+            <p>HTML5</p>
+          </div>
+          <div class="skill">
+            <div class="circle" style="--percent: 85" data-percent="85"></div>
+            <p>CSS3</p>
+          </div>
+          <div class="skill">
+            <div class="circle" style="--percent: 60" data-percent="60"></div>
+            <p>JavaScript</p>
+          </div>
+          <div class="skill">
+            <div class="circle" style="--percent: 45" data-percent="45"></div>
+            <p>TypeScript</p>
+          </div>
+          <div class="skill">
+            <div class="circle" style="--percent: 50" data-percent="50"></div>
+            <p>React</p>
+          </div>
+          <div class="skill">
+            <div class="circle" style="--percent: 40" data-percent="40"></div>
+            <p>Redux</p>
+          </div>
+          <div class="skill">
+            <div class="circle" style="--percent: 40" data-percent="40"></div>
+            <p>Next.js</p>
+          </div>
+          <div class="skill">
+            <div class="circle" style="--percent: 50" data-percent="50"></div>
+            <p>Tailwind CSS</p>
+          </div>
+          <div class="skill">
+            <div class="circle" style="--percent: 40" data-percent="40"></div>
+            <p>Node.js</p>
+          </div>
+          <div class="skill">
+            <div class="circle" style="--percent: 35" data-percent="35"></div>
+            <p>NestJS</p>
+          </div>
+          <div class="skill">
+            <div class="circle" style="--percent: 65" data-percent="65"></div>
+            <p>Git & GitHub</p>
+          </div>
+          <div class="skill">
+            <div class="circle" style="--percent: 30" data-percent="30"></div>
+            <p>MongoDB</p>
+          </div>
+        </div>
+      </section>
+      <section class="code" id="code">
+        <div class="code-container">
+          <h2>Code <span>Example</span></h2>
+          <p class="task-desc">
+            <strong>Task:</strong> Mask all but the last four characters of a
+            string.
+            <br />
+            <strong>Source:</strong> Codewars
+          </p>
+          <pre class="code-block">
+<code>
+	function maskify(cc) {
+		if (cc.length &lt;= 4) {
+			return cc;
+		}
+		return '#'.repeat(cc.length - 4) + cc.slice(-4);
+	}
+						</code>						
+    			</pre>
+          <a
+            href="https://www.codewars.com/users/Lis1van"
+            class="btn"
+            target="_blank"
+            >My Codewars Profile</a
+          >
+        </div>
+      </section>
+      <section class="projects" id="projects">
+        <h2 class="heading"><span>Projects</span></h2>
+        <div class="projects-box">
+          <div class="project-card">
+            <img src="assets/img/TMDB.jpg" alt="project photo" />
+            <h3>Project 1</h3>
+            <p>
+              This is a Next.js project that displays a list of movies using
+              data from The Movie Database (TMDB) API. The app allows users to
+              discover, search, and browse movies by genre, and provides
+              detailed information about each movie.
+            </p>
+            <a
+              href="https://github.com/Lis1van/exam_next_tmdb"
+              target="_blank"
+              class="btn"
+              >Preview project</a
+            >
+          </div>
+          <div class="project-card">
+            <img src="assets/img/TMDB.jpg" alt="project photo" />
+            <h3>Project 2</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nihil
+              sequi ipsam reprehenderit. Doloremque neque, id aliquam incidunt,
+              iure, quaerat explicabo eum unde quis consectetur eius placeat
+              facere? Ratione, laudantium.
+            </p>
+            <div class="btn">Preview project</div>
+          </div>
+          <div class="project-card">
+            <img src="assets/img/TMDB.jpg" alt="project photo" />
+            <h3>Project 3</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatibus soluta quibusdam quaerat perferendis a! Laborum
+              inventore aliquam quod quia neque illum sapiente similique minima
+              nemo consequuntur, sit ex aut eaque.
+            </p>
+            <div class="btn">Preview project</div>
+          </div>
+        </div>
+      </section>
+      <section class="education" id="educations">
+        <div class="education-content">
+          <h2>My <span>Education</span></h2>
+          <div class="education-box">
+            <div class="edu-item">
+              <h3>Technical College</h3>
+              <p>Graduated: 2007</p>
+              <p>
+                Specialization: Maintenance of CNC machines (Computer Numerical
+                Control)
+              </p>
+            </div>
+            <div class="edu-item">
+              <h3>JavaScript Complex (Full-Stack)</h3>
+              <p>Studied for almost a year</p>
+              <p>Completed in January 2025</p>
+              <p>
+                Learned: JavaScript, Node.js, MongoDB, React, Express, and more
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="languages" id="languages">
+        <div class="languages-content">
+          <h2>My <span>Languages</span></h2>
+          <div class="lang-box">
+            <div class="lang-item">
+              <h3>Russian</h3>
+              <p>Native</p>
+            </div>
+            <div class="lang-item">
+              <h3>Ukrainian</h3>
+              <p>Intermediate — understand well, speak occasionally</p>
+            </div>
+            <div class="lang-item">
+              <h3>English</h3>
+              <p>A1 — currently learning</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-content">
+        <p>&#169; 2025 Lis1van | All Rights reserved</p>
+        <a href="https://github.com/Lis1van" target="_blank">
+          <i class="bx bxl-github"></i> GitHub
+        </a>
+        <a
+          href="https://rs.school/courses/javascript-ru"
+          target="_blank"
+          class="rss-logo"
+        >
+          <img src="assets/svg/rs-school-logo.svg" alt="RS School Logo" />
+        </a>
+      </div>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
 </html>
