@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
 }
 :root {
   --bg-color: #080808;
@@ -19,6 +19,7 @@ html {
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
+  scroll-behavior: smooth;
 }
 /* header */
 .my-logo-img {
@@ -85,7 +86,7 @@ span {
 /* section home */
 section {
   min-height: 100vh;
-  margin-top: 12rem;
+  margin-top: 13rem;
   padding: 10rem 15%;
   scroll-margin-top: 12rem;
   /* border: 3px solid #ff1d15; */
@@ -448,7 +449,7 @@ section {
 }
 /* section languages */
 .languages {
-  background: var(--bg-color);
+  background: var(--second-bg-color);
   padding: 8rem 15%;
   text-align: center;
 }
@@ -490,7 +491,7 @@ section {
 }
 /* footer */
 .footer {
-  background-color: var(--second-bg-color);
+  background-color: var(--bg-color);
   padding: 2rem 15%;
   text-align: center;
   border-top: 1px solid #333;
